@@ -20,7 +20,7 @@ function BMI (checkBMI){
     }
 }
 
-const bmi = checkBMI(height, weight)
+const bmi = checkBMI(height, weight);
 console.log(username);
 console.log("BMI= " + bmi);
-console.log(" " + BMI(bmi));
+console.log("" + BMI(bmi));
