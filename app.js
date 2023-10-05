@@ -1,10 +1,9 @@
 function checkBMI(height, weight){
     return ((weight/(height*height))*10000);
 }
-let username = (prompt("Enter your Name"));
-let weight = Number(prompt("Enter your weight in kg"));
-let height = Number(prompt("Enter your height in cm"));
-const user = checkBMI(height,weight)
+const username = (prompt("Enter your Name"));
+const weight = Number(prompt("Enter your weight in kg"));
+const height = Number(prompt("Enter your height in cm"));
 
 function BMI (checkBMI){
     if(checkBMI < 18.5){
@@ -21,6 +20,7 @@ function BMI (checkBMI){
     }
 }
 
+const bmi = checkBMI(height, weight)
 console.log(username);
-console.log(checkBMI(height, weight));
-console.log(" " + BMI(checkBMI(height, weight)));
+console.log("BMI= " + bmi);
+console.log(" " + BMI(bmi));
